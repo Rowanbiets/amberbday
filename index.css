@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    color: white;
+}
+
+header {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35pt;
+    color: purple;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35pt;
+    color: purple;
+}
+
+p {
+    text-align: left;
+    border-radius: 10px;
+    background-color: purple;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section img {
+    max-width: 30%;
+    height: auto;
+    margin-left: 20px; /* Plaats de afbeelding meer naar rechts */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21pt;
+}
+
+footer p{
+    text-align: center;
+}
